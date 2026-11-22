@@ -14,5 +14,37 @@
     "confidence": "标签体系样例1",
     "source": "标签体系样例1",
     "activated_at": "2026-11-19T01:42:58.811305+00:00"
+  },
+  {
+    "label_id": "LABE-0001",
+    "label_name": "标签体系样例1",
+    "label_type": "标签体系样例1",
+    "confidence": "标签体系样例1",
+    "source": "标签体系样例1",
+    "activated_at": "2026-11-22T17:22:59.792867+00:00"
+  },
+  {
+    "label_id": "LABE-0001",
+    "label_name": "标签体系样例1",
+    "label_type": "标签体系样例1",
+    "confidence": "标签体系样例1",
+    "source": "标签体系样例1",
+    "activated_at": "2026-11-22T17:28:25.142734+00:00"
+  },
+  {
+    "label_id": "LABE-0001",
+    "label_name": "标签体系样例1",
+    "label_type": "标签体系样例1",
+    "confidence": "标签体系样例1",
+    "source": "标签体系样例1",
+    "activated_at": "2026-11-22T17:31:41.116303+00:00"
+  },
+  {
+    "label_id": "LABE-0001",
+    "label_name": "标签体系样例1",
+    "label_type": "标签体系样例1",
+    "confidence": "标签体系样例1",
+    "source": "标签体系样例1",
+    "activated_at": "2026-11-22T17:32:58.931500+00:00"
   }
 ]

@@ -3,8 +3,8 @@
   "dimension": "合规检查样例2",
   "standard": "合规检查样例2",
   "scope": "合规检查样例2",
-  "checked_count": 63,
+  "checked_count": 64,
   "violations": 18,
   "passed": false,
-  "checked_at": "2026-11-19T01:42:58.810822+00:00"
+  "checked_at": "2026-11-22T17:32:58.930521+00:00"
 }

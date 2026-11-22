@@ -5,6 +5,7 @@ from typing import TYPE_CHECKING
 
 from app.services.asset_catalog import AssetCatalogService
 from app.services.tier_policy import TierPolicyService
+from app.services.publish_credential import PublishCredentialService
 from app.services.lineage_graph import LineageGraphService
 from app.services.retention_rule import RetentionRuleService
 from app.services.compliance_check import ComplianceCheckService
@@ -25,6 +26,7 @@ from app.services.change_notice import ChangeNoticeService
 _SERVICE_CLASSES = [
     AssetCatalogService,
     TierPolicyService,
+    PublishCredentialService,
     LineageGraphService,
     RetentionRuleService,
     ComplianceCheckService,
@@ -64,6 +66,7 @@ __all__ = [
     "all_services",
     "AssetCatalogService",
     "TierPolicyService",
+    "PublishCredentialService",
     "LineageGraphService",
     "RetentionRuleService",
     "ComplianceCheckService",

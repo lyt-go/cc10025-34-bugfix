@@ -22,7 +22,7 @@ class ColdStorageService(BaseModuleService):
     MODULE = "cold_storage"
     ENTITY = "冷存任务"
     OPERATION_TERM = "迁移"
-    LIST_FIELDS = ["任务编号", "源资产", "目标存储", "压缩算法", "迁移量", "预计耗时", "迁移状态", "校验摘要"]
+    LIST_FIELDS = ["任务编号", "源资产", "发布版本", "目标存储", "压缩算法", "迁移量", "预计耗时", "迁移状态", "校验摘要"]
     REQUIRED_FIELDS = ["任务编号", "源资产", "目标存储"]
     STATUS_ORDER = ["待调度", "迁移中", "已完成", "已失败"]
     ACTION_RULES = {"发起迁移": "迁移中", "确认完成": "已完成", "标记失败": "已失败"}

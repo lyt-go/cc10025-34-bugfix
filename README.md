@@ -11,7 +11,7 @@
 .
 ├── frontend/                 Vue 3 + Vite + TypeScript 前端
 │   ├── src/views/WorkbenchView.vue|tsx  全部模块共享工作台
-│   ├── src/data/modules.ts              18个业务模块配置
+│   ├── src/data/modules.ts              19个业务模块配置
 │   ├── src/api/              统一请求封装
 │   └── vite.config.ts        dev server 配置（open: false）
 ├── backend/                  FastAPI（Python） 后端
@@ -52,6 +52,7 @@ npm run dev
 | --- | --- | --- | --- |
 | 资产编目 | `asset_catalog` | 数据资产 | 资产编号、资产名称、所属域 |
 | 分层策略 | `tier_policy` | 分层策略 | 策略编号、目标资产、当前层级 |
+| 分层种子发布凭据 | `publish_credential` | 发布凭据 | 凭据编号、目标资产、发布版本 |
 | 血缘图谱 | `lineage_graph` | 血缘记录 | 记录编号、上游资产、下游资产 |
 | 保留规则 | `retention_rule` | 保留规则 | 规则编号、目标资产、保留天数 |
 | 合规检查 | `compliance_check` | 合规规则 | 规则编号、检查维度、合规标准 |
